@@ -58,10 +58,27 @@ nav a {
     border-radius: 15%;
 
 }
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(100deg);
+    }
+    /* from {background-color: red;}
+    to {background-color: yellow;} */
+   }
+
 nav a:hover {
     cursor:pointer;
     background-color: var(--orange);
     color: black;
+    display: inline-block;
+    /* animation-name: spin;
+    animation-duration: 3s; */
+    animation-name: spin;
+    animation-duration: 1s;
 }
 
 .training-option {
@@ -84,11 +101,13 @@ nav a:hover {
     text-align: center;
     align-items: center;
    }
+   
+  
 
    nav a {
     font-size: 1.5rem;
    }
-   
+
    .training-option {
     margin-top: 5dvw; 
 }
