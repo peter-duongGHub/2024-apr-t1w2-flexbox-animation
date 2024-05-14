@@ -55,4 +55,38 @@ nav a {
     padding: 0.5rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    border-radius: 15%;
+
+}
+
+.training-option {
+    margin-top: 15dvw; 
+    background-color: var(--orange);
+    padding: 1rem;
+    border-radius: 5%;
+}
+
+.training-option img {
+    width: 75dvw;
+    border-radius: 5%;
+}
+
+@media screen and (min-width: 600px){
+   main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+   }
+
+   .training-option {
+    margin-top: 5dvw; 
+}
+    .training-option img {
+    /* width: 25dvw;
+    height: 35dvh; */
+    width: 250px;
+    height: 250px;
+}
 }
