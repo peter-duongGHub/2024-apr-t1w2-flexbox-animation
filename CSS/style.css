@@ -47,3 +47,12 @@ header {
     font-size: 1.5rem;
     border-radius: 20%;
 }
+
+nav a {
+    text-decoration: none;
+    background-color: black;
+    color: var(--blue-light);
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
