@@ -1,0 +1,49 @@
+
+
+*{
+--blue-light: #AEC5EB;
+--orange: #FF715B;
+color: black;
+}
+
+body {
+    background-color: var(--blue-light);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* Text align is horizontal */
+    text-align: center;
+    /* align items is vertical */
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    /* Text align is horizontal */
+    text-align: center;
+    /* align items is vertical */
+    align-items: center;
+}
+
+
+.logo {
+    height: 150px;
+    width: 150px;
+    background-color: var(--orange);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 50%;
+
+}
+
+.logo p {
+    background-color: black;
+    color: var(--orange);
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 20%;
+}
